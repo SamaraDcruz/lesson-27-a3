@@ -1,0 +1,11 @@
+# Program: That's the Exit
+
+import sys   # to use sys.exit()
+
+for i in range(1, 11):
+    print("i =", i)
+    if i == 5:
+        print("Value reached 5 - exiting the program!")
+        sys.exit()
+
+print("This line will not be executed.")
